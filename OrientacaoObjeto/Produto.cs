@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace OrientacaoObjeto
 {
-    internal class Produto
+    public class Produto
     {
+        private int Id { get; set; }
+        private string Descricao { get; set;}
+        private decimal Valor { get; set;}
+
+        public Produto(int id, string descricao, decimal valor) 
+        { 
+            Id = id;
+            Descricao = descricao;
+            Valor = valor;
+        }
     }
 }
