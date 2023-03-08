@@ -18,5 +18,17 @@ namespace OrientacaoObjeto
             Descricao = descricao;
             Valor = valor;
         }
+        public int getId()
+        {
+            return Id;
+        }
+        public string getDescriacao()
+        {
+            return Descricao;
+        }
+        public decimal getValor()
+        {
+            return Valor;
+        }
     }
 }
