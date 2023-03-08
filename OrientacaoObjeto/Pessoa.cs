@@ -8,5 +8,7 @@ namespace OrientacaoObjeto
 {
     internal class Pessoa
     {
+        private int Id { get; set; }
+        private string Nome { get; set; }        
     }
 }
