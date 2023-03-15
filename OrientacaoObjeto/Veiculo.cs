@@ -13,5 +13,10 @@ namespace OrientacaoObjeto
         public string Cor;
         public int QuantidadeAcento;
         public bool PagaImposto;
+
+        public string ExibirDados()
+        {
+            return "Nº Portas: " + NumeroPortas + " Cor: " + Cor;
+        }
     }
 }

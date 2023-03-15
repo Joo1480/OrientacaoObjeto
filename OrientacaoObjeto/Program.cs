@@ -38,3 +38,6 @@ aviao.PagaImposto =  false;
 
 Bicicleta bike = new Bicicleta();
 bike.PagaImposto = false;
+
+Console.WriteLine(aviao.ExibirDados());
+Console.WriteLine(car.ExibirDados());
