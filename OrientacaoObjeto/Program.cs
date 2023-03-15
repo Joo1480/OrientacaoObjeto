@@ -41,3 +41,5 @@ bike.PagaImposto = false;
 
 Console.WriteLine(aviao.ExibirDados());
 Console.WriteLine(car.ExibirDados());
+
+List<Veiculo> listaVeiculo = new List<Veiculo>();
