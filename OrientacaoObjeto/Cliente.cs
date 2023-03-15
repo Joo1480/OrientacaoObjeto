@@ -9,14 +9,16 @@ namespace OrientacaoObjeto
 {
     internal class Cliente
     {
-        private int Id { get; set; }
-        private string Nome { get; set; }       
-        private string Telefone { get; set;}
-        public Cliente(int id, string nome, string telefone)
+        private int Id;
+        private string Nome;
+        private string Telefone;
+        private Endereco Endereco;
+        public Cliente(int id, string nome, string telefone, Endereco endereco)
         {
             Id = id;
             Nome = nome;
             Telefone = telefone;
+            Endereco = endereco;
         }
 
         public int getId()
@@ -42,6 +44,14 @@ namespace OrientacaoObjeto
         public void setTelefone(string telefone)
         {
             Telefone = telefone;
+        }
+        public Endereco getEndereco()
+        {
+            return Endereco;
+        }
+        public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
         }
     }
 }

@@ -24,6 +24,17 @@ namespace OrientacaoObjeto
             Cidade = cidade;
             Estado = estado;
         }
+
+        public string getEnderecoCompleto()
+        {
+            return Rua + " " + Numero + ", " + Bairro + ", " + Cidade + "-" + Estado; 
+        }
+
+        public string getEnderecoCurto()
+        {
+            return Rua + " " + Numero;
+        }
+
         public string getRua()
         {
             return Rua;
