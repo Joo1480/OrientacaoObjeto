@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace OrientacaoObjeto
 {
-    internal class Pessoa
+    internal class Cliente
     {
         private int Id { get; set; }
         private string Nome { get; set; }       
         private string Telefone { get; set;}
-        public Pessoa(int id, string nome, string telefone)
+        public Cliente(int id, string nome, string telefone)
         {
             Id = id;
             Nome = nome;
